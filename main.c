@@ -8,7 +8,6 @@
 
 int main(){
     int first, second;
-    printf("enter your 2 numbers to check\n");
     scanf( "%d%d", &first, &second);
 
 
@@ -19,7 +18,7 @@ int main(){
         }
     }
     printf("\n");
-    printf("The Palindrome numbers are:");
+    printf("The Palindromes are:");
     for (int i = first; i <=second ; ++i) {
         if (isPalindrome(i)==1){
             printf(" %d",i);
