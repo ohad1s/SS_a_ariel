@@ -10,7 +10,7 @@ RC=advancedClassificationRecursion.c
 LC=advancedClassificationLoop.c
 NC=NumClass.h
 
-all:mains maindloop maindrec libclassrec.a libclassloops.so libclassrec.so libclassrec.a
+all:mains maindloop maindrec libclassloops.a libclassloops.so libclassrec.so libclassrec.a
 
 mains:$(OBJECTS_MAIN) libclassrec.a
 	$(CC) $(FLAGS) -o mains $(OBJECTS_MAIN) libclassrec.a
